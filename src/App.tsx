@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
 import { render } from 'react-dom'
-import { Router, Route } from 'react-router'
+import { Routes, Route, Link } from 'react-router-dom'
 
 function App() {
-  return <div className="App">Hello Wrold</div>
+  return <div>Hi</div>
 }
 
 export default App
