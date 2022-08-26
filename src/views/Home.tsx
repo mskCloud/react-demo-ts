@@ -1,1 +1,3 @@
-export default <div>Home</div>
+import Card from '../components/Card'
+
+export default <Card bodyClass="card-body">Home</Card>

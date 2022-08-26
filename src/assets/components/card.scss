@@ -1,0 +1,16 @@
+.r-card {
+  background-color: $withe;
+  padding: 10px;
+  box-shadow: $shadow;
+  &-header {
+    height: 36px;
+    border-bottom: $border-1;
+  }
+  &-body {
+    padding: 10px 0;
+  }
+  &-floor{
+    height: 32px;
+    border-top: $border-1;
+  }
+}
