@@ -1,3 +1,11 @@
 import Card from '../components/Card'
 
-export default <Card bodyClass="card-body">Home</Card>
+function Home() {
+  return (
+    <div>
+      <Card></Card>
+    </div>
+  )
+}
+
+export default Home()
